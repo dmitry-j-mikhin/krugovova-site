@@ -27,6 +27,8 @@ ALLOWED_SUFFIX = {
     ".woff", ".woff2", ".ttf", ".pdf",
 }
 ALLOWED_NAMES = {"robots.txt", ".htaccess"}
+# тексты лицензий на шрифты — OFL требует распространять их вместе со шрифтами
+ALLOWED_GLOBS = ("OFL*.txt",)
 
 
 class ReusingFTP_TLS(ftplib.FTP_TLS):
@@ -73,7 +75,7 @@ def local_files():
             continue
         if path.is_dir():
             continue
-        if path.name in ALLOWED_NAMES:
+        if path.name in ALLOWED_NAMES or any(path.match(g) for g in ALLOWED_GLOBS):
             files.append(path)
             continue
         if path.name.startswith(".") or path.suffix.lower() not in ALLOWED_SUFFIX:
