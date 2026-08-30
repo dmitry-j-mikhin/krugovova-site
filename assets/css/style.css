@@ -295,18 +295,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   color:var(--ink-soft); font-size:14px; letter-spacing:.06em; text-align:center; padding:20px;
 }
 
-/* cookie-уведомление */
-.cookie{
-  position:fixed; left:16px; right:16px; bottom:16px; z-index:60;
-  display:flex; align-items:center; gap:20px; flex-wrap:wrap;
-  max-width:760px; margin:0 auto; padding:18px 22px;
-  background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
-  box-shadow:0 12px 40px rgba(35,49,61,.16);
-}
-.cookie[hidden]{ display:none; }
-.cookie__text{ margin:0; flex:1 1 320px; font-size:14px; color:var(--ink-soft); }
-.cookie__btn{ padding:11px 24px; }
-
 @media (max-width:1024px){
   .office__grid{ grid-template-columns:1fr; gap:32px; }
 }

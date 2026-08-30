@@ -97,23 +97,6 @@
     Array.prototype.forEach.call(counters, function (el) { animateCount(el); });
   }
 
-  /* --- cookie-уведомление ----------------------------------------------
-     Если аналитику не подключаете — удалите этот блок и разметку #cookie.
-     -------------------------------------------------------------------- */
-  var cookieBox = document.getElementById('cookie');
-  var cookieOk = document.getElementById('cookie-ok');
-  var COOKIE_KEY = 'mk-cookie-ok';
-
-  if (cookieBox && cookieOk) {
-    var accepted = false;
-    try { accepted = localStorage.getItem(COOKIE_KEY) === '1'; } catch (err) { accepted = true; }
-    if (!accepted) cookieBox.hidden = false;
-    cookieOk.addEventListener('click', function () {
-      cookieBox.hidden = true;
-      try { localStorage.setItem(COOKIE_KEY, '1'); } catch (err) { /* приватный режим */ }
-    });
-  }
-
   /* --- год в подвале ---------------------------------------------------- */
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
