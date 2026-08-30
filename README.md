@@ -8,7 +8,6 @@
 ```
 index.html          главная: все секции по порядку
 contract.html       условия работы (контракт) — заглушка
-privacy.html        политика конфиденциальности — заглушка
 404.html            страница «не найдено»
 robots.txt          — заменить домен
 sitemap.xml         — заменить домен
@@ -21,7 +20,7 @@ assets/img/            картинки: сюда класть фото
 Посмотреть список сразу:
 
 ```bash
-grep -rn "TODO" index.html contract.html privacy.html assets/js/main.js
+grep -rn "TODO" index.html contract.html assets/js/main.js
 ```
 
 ## Локальный просмотр
@@ -46,7 +45,7 @@ python3 -m http.server 8000
 7. **Адрес кабинета** (`#office`) — адрес и iframe Яндекс.Карт
    (Яндекс.Карты → «Поделиться» → «Код для сайта»). Если приём только онлайн —
    удалить секцию целиком и пункт «Кабинет» в меню.
-8. **`contract.html` и `privacy.html`** — заменить рыбу на реальный текст.
+8. **`contract.html`** — заменить рыбу на реальный текст.
 9. **Метаданные**: `<title>`, `<meta name="description">`, `<link rel="canonical">`,
    домен в `robots.txt` и `sitemap.xml`, картинка `assets/img/og.svg` (лучше заменить на JPG 1200×630).
 10. **Фавикон** — `assets/img/favicon.svg` (сейчас инициалы «МК»).
