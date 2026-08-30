@@ -53,7 +53,9 @@ python3 -m http.server 8000
 
 ## Тестовое размещение на Beget
 
-Сейчас скелет лежит на бесплатном хостинге Beget: <http://r92638sb.beget.tech/>
+Сейчас скелет лежит на бесплатном хостинге Beget по техническому адресу вида
+`http://<ваш-логин>.beget.tech/` — точный адрес и доступы в `.beget.env`,
+он намеренно не попадает в репозиторий.
 Сайт закрыт от поисковиков (`noindex` в `index.html` и `Disallow: /` в `robots.txt`) —
 снять оба перед настоящим запуском.
 
@@ -76,7 +78,7 @@ python3 deploy-beget.py --dry-run  # список файлов, без отпр�
 
   ```bash
   curl -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
-    http://r92638sb.beget.tech/
+    http://<ваш-логин>.beget.tech/
   ```
 
 - **FTP только по FTPS и с переиспользованием TLS-сессии** — иначе `530 must use
