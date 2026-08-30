@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Место для фото">
+  <rect width="600" height="800" fill="#efe0cd"/>
+  <circle cx="300" cy="320" r="96" fill="none" stroke="#23313d" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M160 620c0-77 63-140 140-140s140 63 140 140" fill="none" stroke="#23313d" stroke-opacity=".28" stroke-width="2"/>
+  <text x="300" y="712" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#23313d" fill-opacity=".45">фото · 3:4</text>
+</svg>

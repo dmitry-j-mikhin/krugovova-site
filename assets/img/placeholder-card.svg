@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="Место для изображения">
+  <rect width="640" height="480" fill="#faf6f1"/>
+  <rect x="1" y="1" width="638" height="478" fill="none" stroke="#23313d" stroke-opacity=".14"/>
+  <path d="M170 320l90-96 66 70 48-44 96 102z" fill="#efe0cd"/>
+  <circle cx="236" cy="176" r="30" fill="#efe0cd"/>
+  <text x="320" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#23313d" fill-opacity=".45">изображение · 4:3</text>
+</svg>

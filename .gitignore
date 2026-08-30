@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# доступы к хостингу
+.beget.env
+.beget-state
+.login-pass*.txt
