@@ -370,8 +370,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 }
 .header__inner{ display:flex; align-items:center; gap:24px; min-height:var(--header-h); }
 .brand{ display:flex; flex-direction:column; line-height:1.2; color:var(--ink); }
-.brand__name{ font-family:var(--font-head); font-size:22px; }
-.brand__role{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-soft); }
+.brand__name{ font-family:var(--font-head); font-size:25px; }
+.brand__role{ font-size:12px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-soft); }
 
 .nav{ margin-left:auto; display:flex; align-items:center; gap:28px; }
 .nav__list{ display:flex; gap:22px; list-style:none; margin:0; padding:0; }
@@ -512,9 +512,9 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .footer__inner{ grid-template-columns:1fr 1fr; }
 }
 
-@media (max-width:768px){
-  body{ font-size:16px; }
-  .section{ padding:64px 0; }
+/* меню уходит под бургер раньше остальной вёрстки: подпись в шапке длинная,
+   и на планшетных ширинах пункты начинали переноситься */
+@media (max-width:960px){
   .burger{ display:flex; }
   .nav{
     position:fixed; inset:var(--header-h) 0 auto 0;
@@ -530,6 +530,11 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .nav__link{ display:block; padding:14px 0; font-size:16px; border:0; }
   .nav__contacts{ display:flex; flex-direction:column; gap:8px; padding-top:18px; font-size:15px; }
   body.is-locked{ overflow:hidden; }
+}
+
+@media (max-width:768px){
+  body{ font-size:16px; }
+  .section{ padding:64px 0; }
 
   .cards, .method__grid, .steps__list, .tags{ grid-template-columns:1fr; }
   .booking__contacts{ grid-template-columns:1fr; }
