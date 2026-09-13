@@ -57,7 +57,9 @@ python3 -m http.server 8000
 ### Оформление
 
 Шрифты — **Lora** (заголовки) и **Golos Text** (текст), оба под OFL, лежат локально
-в `assets/fonts/`: подмножества cyrillic, cyrillic-ext, latin, latin-ext, начертания 400 и 500.
+в `assets/fonts/`: подмножества cyrillic, cyrillic-ext, latin, latin-ext — восемь файлов.
+Оба шрифта вариативные, поэтому веса 400 и 500 живут в одном файле
+(`font-weight: 400 500` в `@font-face`).
 Сайт по-прежнему не делает ни одного запроса на сторонние домены. У Lora крупнее очко,
 чем у прежнего Cormorant Garamond, поэтому заголовки секций уменьшены до `clamp(30px,4vw,40px)`,
 а имя в hero — до `clamp(26px,3vw,31px)`. У Golos Text нет начертания 300, базовый вес текста — 400.
