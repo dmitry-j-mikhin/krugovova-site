@@ -405,6 +405,9 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 @media (max-width:768px){
   body{ font-size:16px; }
+  /* имя в шапке тянется по ширине экрана: на 360px — ~15px, на 768px — 25px.
+     Фиксированный кегль ломал ФИО на две строки на узких телефонах. */
+  .brand__name{ font-size:clamp(13px,4.2vw,25px); }
   .section{ padding:64px 0; }
 
   .cards, .method__grid, .tags{ grid-template-columns:1fr; }
@@ -419,7 +422,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 }
 
 @media (max-width:420px){
-  .brand__name{ font-size:18px; }
   .facts__grid{ grid-template-columns:1fr; }
   .btn{ width:100%; }
 }
