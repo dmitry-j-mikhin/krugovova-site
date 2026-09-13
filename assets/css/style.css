@@ -474,6 +474,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .contact:hover{ border-color:var(--accent); background:var(--white); }
 .contact__label{ font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); }
 .contact__value{ font-family:var(--font-head); font-size:24px; color:var(--ink); }
+/* контакт во всю ширину — когда плиток нечётное число */
+.contact--wide{ grid-column:1 / -1; }
 
 /* ---------- статьи ---------- */
 .articles{ list-style:none; margin:36px 0 0; padding:0; }
