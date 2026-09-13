@@ -5,303 +5,178 @@
    тексты лицензий — в assets/fonts/.
    ============================================================ */
 
-/* Cormorant Garamond 400 italic — cyrillic */
+/* Lora 400 — cyrillic-ext */
 @font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: italic;
+  font-family: 'Lora';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/cormorant-garamond-400i-cyrillic.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* Cormorant Garamond 400 italic — cyrillic-ext */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-400i-cyrillic-ext.woff2') format('woff2');
+  src: url('../fonts/lora-400-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* Cormorant Garamond 400 italic — latin */
+/* Lora 400 — cyrillic */
 @font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-400i-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* Cormorant Garamond 400 italic — latin-ext */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-400i-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* Cormorant Garamond 400 — cyrillic */
-@font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/cormorant-garamond-400-cyrillic.woff2') format('woff2');
+  src: url('../fonts/lora-400-cyrillic.woff2') format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
-/* Cormorant Garamond 400 — cyrillic-ext */
+/* Lora 400 — latin-ext */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/cormorant-garamond-400-cyrillic-ext.woff2') format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* Cormorant Garamond 400 — latin */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-400-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* Cormorant Garamond 400 — latin-ext */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-400-latin-ext.woff2') format('woff2');
+  src: url('../fonts/lora-400-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* Cormorant Garamond 500 — cyrillic */
+/* Lora 400 — latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/lora-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Lora 500 — cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/cormorant-garamond-500-cyrillic.woff2') format('woff2');
+  src: url('../fonts/lora-500-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* Lora 500 — cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/lora-500-cyrillic.woff2') format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
-/* Cormorant Garamond 500 — cyrillic-ext */
+/* Lora 500 — latin-ext */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/cormorant-garamond-500-cyrillic-ext.woff2') format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* Cormorant Garamond 500 — latin */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-500-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* Cormorant Garamond 500 — latin-ext */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/cormorant-garamond-500-latin-ext.woff2') format('woff2');
+  src: url('../fonts/lora-500-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* Manrope 300 — cyrillic */
+/* Lora 500 — latin */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Lora';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-display: swap;
-  src: url('../fonts/manrope-300-cyrillic.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* Manrope 300 — cyrillic-ext */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('../fonts/manrope-300-cyrillic-ext.woff2') format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* Manrope 300 — latin */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('../fonts/manrope-300-latin.woff2') format('woff2');
+  src: url('../fonts/lora-500-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Manrope 300 — latin-ext */
+/* Golos Text 400 — cyrillic-ext */
 @font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('../fonts/manrope-300-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* Manrope 400 — cyrillic */
-@font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/manrope-400-cyrillic.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* Manrope 400 — cyrillic-ext */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/manrope-400-cyrillic-ext.woff2') format('woff2');
+  src: url('../fonts/golos-text-400-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* Manrope 400 — latin */
+/* Golos Text 400 — cyrillic */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/manrope-400-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/golos-text-400-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
-/* Manrope 400 — latin-ext */
+/* Golos Text 400 — latin-ext */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/manrope-400-latin-ext.woff2') format('woff2');
+  src: url('../fonts/golos-text-400-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* Manrope 500 — cyrillic */
+/* Golos Text 400 — latin */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
-  src: url('../fonts/manrope-500-cyrillic.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* Manrope 500 — cyrillic-ext */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/manrope-500-cyrillic-ext.woff2') format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* Manrope 500 — latin */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/manrope-500-latin.woff2') format('woff2');
+  src: url('../fonts/golos-text-400-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Manrope 500 — latin-ext */
+/* Golos Text 500 — cyrillic-ext */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/manrope-500-latin-ext.woff2') format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* Manrope 600 — cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('../fonts/manrope-600-cyrillic.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* Manrope 600 — cyrillic-ext */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('../fonts/manrope-600-cyrillic-ext.woff2') format('woff2');
+  src: url('../fonts/golos-text-500-cyrillic-ext.woff2') format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* Manrope 600 — latin */
+/* Golos Text 500 — cyrillic */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-display: swap;
-  src: url('../fonts/manrope-600-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/golos-text-500-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
-/* Manrope 600 — latin-ext */
+/* Golos Text 500 — latin-ext */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Golos Text';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-display: swap;
-  src: url('../fonts/manrope-600-latin-ext.woff2') format('woff2');
+  src: url('../fonts/golos-text-500-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* ============================================================
-   Мария Круговова — сайт-визитка
-   Палитра и типографика меняются здесь, в :root
-   ============================================================ */
+/* Golos Text 500 — latin */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/golos-text-500-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 :root{
-  --ink:        #23313d;   /* основной тёмный */
-  --ink-soft:   #4d6173;   /* приглушённый текст */
-  --accent:     #6f8fa8;   /* акцент, ссылки */
-  --accent-dk:  #55738b;
-  --sand:       #efe0cd;   /* тёплый беж */
-  --cream:      #faf6f1;   /* фон секций */
+  --ink:        #16332f;   /* основной тёмный */
+  --ink-soft:   #3f6a66;   /* приглушённый текст */
+  --accent:     #3d918a;   /* акцент, ссылки */
+  --accent-dk:  #2e7a73;
+  --sand:       #a8d5ce;   /* светлая бирюза */
+  --cream:      #e6f3f1;   /* фон секций */
   --white:      #ffffff;
-  --line:       rgba(35,49,61,.14);
+  --line:       rgba(22,51,47,.16);
 
-  --font-head: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-head: "Lora", Georgia, "Times New Roman", serif;
+  --font-body: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 
   --container: 1160px;
   --gutter: 24px;
@@ -319,7 +194,7 @@ body{
   font-family:var(--font-body);
   font-size:17px;
   line-height:1.65;
-  font-weight:300;
+  font-weight:400;
   color:var(--ink);
   background:var(--white);
   -webkit-font-smoothing:antialiased;
@@ -343,7 +218,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .section{ padding:96px 0; }
 .section--cream{ background:var(--cream); }
 .section--dark{ background:var(--ink); color:var(--white); }
-.section__title{ font-size:clamp(30px,4vw,46px); margin-bottom:.6em; }
+.section__title{ font-size:clamp(30px,4vw,40px); margin-bottom:.6em; }
 .section__title--light{ color:var(--white); }
 .section__lead{ max-width:62ch; color:var(--ink-soft); }
 .subtitle{ font-size:24px; margin:56px 0 20px; }
@@ -371,7 +246,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .header__inner{ display:flex; align-items:center; gap:24px; min-height:var(--header-h); }
 .brand{ display:flex; flex-direction:column; line-height:1.2; color:var(--ink); }
 .brand__name{ font-family:var(--font-head); font-size:25px; }
-.brand__role{ font-size:12px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-soft); }
+.brand__role{ font-size:10px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-soft); }
 
 .nav{ margin-left:auto; display:flex; align-items:center; gap:28px; }
 .nav__list{ display:flex; gap:22px; list-style:none; margin:0; padding:0; }
@@ -389,11 +264,12 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 /* ---------- hero ---------- */
 .hero{ padding:80px 0 96px; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
-.hero__inner{ display:grid; grid-template-columns:1fr auto; gap:64px; align-items:center; }
-.hero__title{ font-size:clamp(30px,4vw,52px); margin-bottom:0; }
+.hero__inner{ display:block; }
+.hero__title{ font-size:clamp(26px,3vw,31px); margin:0; }
 
-.hero__media{ position:relative; width:240px; justify-self:end; }
-.hero__photo{ position:relative; width:100%; border-radius:var(--radius); object-fit:cover; aspect-ratio:3/4; }
+/* фото и имя под ним — одной колонкой слева */
+.hero__media{ display:flex; flex-direction:column; align-items:flex-start; gap:26px; }
+.hero__photo{ width:242px; height:325px; border-radius:var(--radius); object-fit:cover; }
 
 /* ---------- цифры ---------- */
 .facts{ padding:56px 0; border-block:1px solid var(--line); }
@@ -446,10 +322,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .method__item h3{ font-size:24px; }
 .method__item p{ margin:0; color:var(--ink-soft); }
 
-.steps__list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
-.steps__list li{ display:flex; gap:16px; align-items:flex-start; }
-.steps__list span{ font-family:var(--font-head); font-size:34px; color:var(--accent); line-height:1; }
-.steps__list p{ margin:0; color:var(--ink-soft); }
 
 /* ---------- запись ---------- */
 .booking__grid{ display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; }
@@ -504,9 +376,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 /* ============================== адаптив ============================== */
 @media (max-width:1024px){
-  .hero__inner{ grid-template-columns:1fr; gap:48px; }
   .about__grid, .booking__grid{ grid-template-columns:1fr; gap:40px; }
-  .cards, .method__grid, .steps__list{ grid-template-columns:repeat(2,1fr); }
+  .cards, .method__grid{ grid-template-columns:repeat(2,1fr); }
   .tags{ grid-template-columns:repeat(2,1fr); }
   .facts__grid{ grid-template-columns:repeat(2,1fr); gap:28px; }
   .footer__inner{ grid-template-columns:1fr 1fr; }
@@ -536,7 +407,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   body{ font-size:16px; }
   .section{ padding:64px 0; }
 
-  .cards, .method__grid, .steps__list, .tags{ grid-template-columns:1fr; }
+  .cards, .method__grid, .tags{ grid-template-columns:1fr; }
   .booking__contacts{ grid-template-columns:1fr; }
   .timeline li{ grid-template-columns:1fr; gap:6px; }
   .footer__inner{ grid-template-columns:1fr; }
@@ -557,7 +428,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .timeline--light li:last-child{ border-bottom-color:var(--line); }
 .timeline--light .timeline__year{ color:var(--accent); }
 
-/* частота встреч в карточке «виды работы» */
+/* частота встреч в карточке «форматы работы» */
 .method__freq{
   margin:-6px 0 14px; font-size:12px; letter-spacing:.12em;
   text-transform:uppercase; color:var(--accent);

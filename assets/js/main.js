@@ -49,7 +49,7 @@
 
   /* --- появление блоков при скролле ----------------------------------- */
   var revealTargets = document.querySelectorAll(
-    '.section, .hero__content, .hero__media, .facts, .card, .article'
+    '.section, .hero__media, .facts, .card, .article'
   );
   Array.prototype.forEach.call(revealTargets, function (el) { el.classList.add('reveal'); });
 
