@@ -263,7 +263,9 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .burger span{ display:block; height:1.5px; background:var(--ink); transition:transform .25s, opacity .2s; }
 
 /* ---------- hero ---------- */
-.hero{ padding:80px 0 96px; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
+.hero{ padding:80px 0 32px; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
+/* «Обо мне» идёт сразу за hero — подтягиваем её к фото и имени */
+.hero + .section{ padding-top:40px; }
 .hero__inner{ display:block; }
 .hero__title{ font-size:clamp(26px,3vw,31px); margin:0; }
 
@@ -411,7 +413,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .booking__contacts{ grid-template-columns:1fr; }
   .timeline li{ grid-template-columns:1fr; gap:6px; }
   .footer__inner{ grid-template-columns:1fr; }
-  .hero{ padding:48px 0 64px; }
+  .hero{ padding:48px 0 24px; }
+  .hero + .section{ padding-top:32px; }
 }
 
 @media (max-width:420px){
