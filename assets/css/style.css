@@ -245,15 +245,15 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 /* ---------- запись ---------- */
 .booking__grid{ display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; }
-.booking__contacts{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.booking__contacts{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
 .contact{
-  display:flex; flex-direction:column; gap:6px; padding:24px 26px;
+  display:flex; flex-direction:column; gap:4px; padding:16px 18px;
   background:var(--cream); border:1px solid var(--line); border-radius:var(--radius);
   transition:border-color .25s, background .25s;
 }
 .contact:hover{ border-color:var(--accent); background:var(--white); }
 .contact__label{ font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); }
-.contact__value{ font-family:var(--font-head); font-size:24px; color:var(--ink); }
+.contact__value{ font-family:var(--font-head); font-size:19px; color:var(--ink); }
 /* контакт во всю ширину — когда плиток нечётное число */
 .contact--wide{ grid-column:1 / -1; }
 
