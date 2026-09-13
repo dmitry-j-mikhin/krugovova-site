@@ -154,11 +154,16 @@ python3 deploy-beget.py --dry-run  # список файлов, без отпр�
   @    A      185.199.109.153
   @    A      185.199.110.153
   @    A      185.199.111.153
+  @    AAAA   2606:50c0:8000::153
+  @    AAAA   2606:50c0:8001::153
+  @    AAAA   2606:50c0:8002::153
+  @    AAAA   2606:50c0:8003::153
   www  CNAME  dmitry-j-mikhin.github.io.
   ```
 
-  Четыре A-записи — это не альтернативы, а все четыре сразу (адреса GitHub Pages).
-  Запись `www` нужна, чтобы `www.krugovova.ru` уезжал редиректом на основной адрес.
+  Четыре A-записи — это не альтернативы, а все четыре сразу (адреса GitHub Pages);
+  AAAA — то же самое для IPv6. Запись `www` нужна, чтобы `www.krugovova.ru` уезжал
+  редиректом на основной адрес; своих A/AAAA ей не нужно — они берутся по CNAME.
 
 - в `Settings → Pages` домен вписан в `Custom domain`, включён `Enforce HTTPS`
   (сертификат Let's Encrypt GitHub выпускает сам, обычно за несколько минут после
@@ -168,6 +173,7 @@ python3 deploy-beget.py --dry-run  # список файлов, без отпр�
 
 ```bash
 dig +short krugovova.ru A          # ожидаем четыре адреса 185.199.10[8-9].153 / 11[0-1].153
+dig +short krugovova.ru AAAA       # ожидаем четыре 2606:50c0:800[0-3]::153
 dig +short www.krugovova.ru CNAME  # ожидаем dmitry-j-mikhin.github.io.
 curl -sI https://krugovova.ru/ | head -3
 ```
