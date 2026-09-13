@@ -234,7 +234,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .btn--primary:hover{ background:var(--accent-dk); color:var(--white); }
 .btn--ghost{ border-color:var(--line); color:var(--ink); }
 .btn--ghost:hover{ border-color:var(--ink); color:var(--ink); }
-.btn--block{ width:100%; }
 
 /* ---------- шапка ---------- */
 .header{
@@ -282,15 +281,11 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .fact__text{ margin-top:10px; font-size:14px; color:var(--ink-soft); }
 
 /* ---------- обо мне ---------- */
-.about__grid{ display:grid; grid-template-columns:1.4fr .6fr; gap:56px; align-items:start; }
+.about__grid{ display:block; }
+.about__text{ max-width:70ch; }
 .ticks{ list-style:none; margin:28px 0 0; padding:0; }
 .ticks li{ position:relative; padding-left:26px; margin-bottom:10px; color:var(--ink-soft); }
 .ticks li::before{ content:"—"; position:absolute; left:0; color:var(--accent); }
-.about__card{ background:var(--cream); border:1px solid var(--line); border-radius:var(--radius); padding:32px; }
-.about__card h3{ font-size:24px; }
-.deflist{ margin:0 0 26px; }
-.deflist dt{ font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); margin-top:16px; }
-.deflist dd{ margin:2px 0 0; font-size:17px; }
 
 /* ---------- карточки образования ---------- */
 .cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
@@ -378,7 +373,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 /* ============================== адаптив ============================== */
 @media (max-width:1024px){
-  .about__grid, .booking__grid{ grid-template-columns:1fr; gap:40px; }
+  .booking__grid{ grid-template-columns:1fr; gap:40px; }
   .cards, .method__grid{ grid-template-columns:repeat(2,1fr); }
   .tags{ grid-template-columns:repeat(2,1fr); }
   .facts__grid{ grid-template-columns:repeat(2,1fr); gap:28px; }
@@ -415,6 +410,9 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .footer__inner{ grid-template-columns:1fr; }
   .hero{ padding:48px 0 24px; }
   .hero + .section{ padding-top:32px; }
+  /* фото поменьше, чтобы текст начинался примерно с середины экрана */
+  .hero__photo{ width:150px; height:201px; }
+  .hero__media{ gap:18px; }
 }
 
 @media (max-width:420px){
