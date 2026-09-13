@@ -389,16 +389,10 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 
 /* ---------- hero ---------- */
 .hero{ padding:80px 0 96px; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
-.hero__inner{ display:grid; grid-template-columns:1.15fr .85fr; gap:64px; align-items:center; }
-.hero__title{ font-size:clamp(44px,6.5vw,78px); margin-bottom:.25em; }
-.hero__lead{ font-size:19px; color:var(--ink-soft); max-width:52ch; }
-.hero__actions{ display:flex; flex-wrap:wrap; gap:14px; margin:32px 0 44px; }
-.hero__quote{ margin:0; padding-left:22px; border-left:2px solid var(--sand); max-width:46ch; }
-.hero__quote blockquote{ margin:0; font-family:var(--font-head); font-style:italic; font-size:20px; line-height:1.4; }
-.hero__quote figcaption{ margin-top:8px; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); }
+.hero__inner{ display:grid; grid-template-columns:1fr auto; gap:64px; align-items:center; }
+.hero__title{ font-size:clamp(30px,4vw,52px); margin-bottom:0; }
 
-.hero__media{ position:relative; }
-.hero__frame{ position:absolute; inset:24px -24px -24px 24px; background:var(--sand); border-radius:var(--radius); }
+.hero__media{ position:relative; width:240px; justify-self:end; }
 .hero__photo{ position:relative; width:100%; border-radius:var(--radius); object-fit:cover; aspect-ratio:3/4; }
 
 /* ---------- цифры ---------- */
@@ -440,12 +434,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .timeline__text{ font-size:19px; }
 
 /* ---------- принципы ---------- */
-.pluses{ background:var(--sand); padding:52px 0; }
-.pluses__grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; }
-.plus{ display:flex; align-items:center; gap:16px; justify-content:center; }
-.plus__circle{ display:grid; place-items:center; width:52px; height:52px; flex:0 0 52px;
-  border:1px solid var(--ink); border-radius:50%; font-family:var(--font-head); font-size:18px; }
-.plus__text{ font-size:15px; letter-spacing:.04em; }
 
 /* ---------- запросы ---------- */
 .tags{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; list-style:none; margin:36px 0 0; padding:0; }
@@ -517,11 +505,10 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 /* ============================== адаптив ============================== */
 @media (max-width:1024px){
   .hero__inner{ grid-template-columns:1fr; gap:48px; }
-  .hero__media{ max-width:420px; }
   .about__grid, .booking__grid{ grid-template-columns:1fr; gap:40px; }
   .cards, .method__grid, .steps__list{ grid-template-columns:repeat(2,1fr); }
   .tags{ grid-template-columns:repeat(2,1fr); }
-  .facts__grid, .pluses__grid{ grid-template-columns:repeat(2,1fr); gap:28px; }
+  .facts__grid{ grid-template-columns:repeat(2,1fr); gap:28px; }
   .footer__inner{ grid-template-columns:1fr 1fr; }
 }
 
@@ -552,7 +539,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 }
 
 @media (max-width:420px){
-  .facts__grid, .pluses__grid{ grid-template-columns:1fr; }
+  .facts__grid{ grid-template-columns:1fr; }
   .btn{ width:100%; }
 }
 
