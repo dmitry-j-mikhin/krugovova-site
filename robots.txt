@@ -1,7 +1,7 @@
-# Тестовое размещение: сайт закрыт от поисковиков.
+# Сайт ещё наполняется и закрыт от поисковиков.
 # TODO: перед настоящим запуском заменить весь файл на:
 #   User-agent: *
 #   Allow: /
-#   Sitemap: https://ВАШ-ДОМЕН/sitemap.xml
+#   Sitemap: https://krugovova.ru/sitemap.xml
 User-agent: *
 Disallow: /
