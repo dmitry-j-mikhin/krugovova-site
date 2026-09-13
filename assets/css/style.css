@@ -166,14 +166,14 @@
 }
 
 :root{
-  --ink:        #16332f;   /* основной тёмный */
-  --ink-soft:   #3f6a66;   /* приглушённый текст */
-  --accent:     #3d918a;   /* акцент, ссылки */
-  --accent-dk:  #2e7a73;
-  --sand:       #a8d5ce;   /* светлая бирюза */
-  --cream:      #e6f3f1;   /* фон секций */
+  --ink:        #3b3033;   /* основной тёмный */
+  --ink-soft:   #6f5f63;   /* приглушённый текст */
+  --accent:     #b07d8a;   /* акцент, ссылки */
+  --accent-dk:  #97626f;
+  --sand:       #ddbfc7;   /* светлая роза */
+  --cream:      #f3e8ea;   /* фон секций */
   --white:      #ffffff;
-  --line:       rgba(22,51,47,.16);
+  --line:       rgba(59,48,51,.16);
 
   --font-head: "Lora", Georgia, "Times New Roman", serif;
   --font-body: "Golos Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -262,8 +262,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .burger span{ display:block; height:1.5px; background:var(--ink); transition:transform .25s, opacity .2s; }
 
 /* ---------- hero ---------- */
-.hero{ padding:80px 0 32px; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
-/* «Обо мне» идёт сразу за hero — подтягиваем её к фото и имени */
+.hero{ padding:80px 0 0; background:linear-gradient(180deg, var(--cream) 0%, var(--white) 100%); }
+/* «Обо мне» идёт сразу за hero — весь просвет задаётся одним этим отступом */
 .hero + .section{ padding-top:40px; }
 .hero__inner{ display:block; }
 .hero__title{ font-size:clamp(26px,3vw,31px); margin:0; }
@@ -408,7 +408,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .booking__contacts{ grid-template-columns:1fr; }
   .timeline li{ grid-template-columns:1fr; gap:6px; }
   .footer__inner{ grid-template-columns:1fr; }
-  .hero{ padding:48px 0 24px; }
+  .hero{ padding:48px 0 0; }
   .hero + .section{ padding-top:32px; }
   /* фото поменьше, чтобы текст начинался примерно с середины экрана */
   .hero__photo{ width:150px; height:201px; }
