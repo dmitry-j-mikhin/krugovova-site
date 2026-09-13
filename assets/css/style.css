@@ -382,9 +382,10 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   .footer__inner{ grid-template-columns:1fr 1fr; }
 }
 
-/* меню уходит под бургер раньше остальной вёрстки: подпись в шапке длинная,
-   и на планшетных ширинах пункты начинали переноситься */
-@media (max-width:960px){
+/* Меню уходит под бургер раньше остальной вёрстки. Шапке нужно
+   356px (имя с подписью) + 24 + 581 (меню) + 48 (поля) = 1010px;
+   ниже этого пункты начинают переноситься на вторую строку. */
+@media (max-width:1024px){
   .burger{ display:flex; }
   .nav{
     position:fixed; inset:var(--header-h) 0 auto 0;
@@ -418,6 +419,7 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 }
 
 @media (max-width:420px){
+  .brand__name{ font-size:18px; }
   .facts__grid{ grid-template-columns:1fr; }
   .btn{ width:100%; }
 }
