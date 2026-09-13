@@ -222,6 +222,8 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
 .section__title--light{ color:var(--white); }
 .section__lead{ max-width:62ch; color:var(--ink-soft); }
 .subtitle{ font-size:24px; margin:56px 0 20px; }
+/* «Дети и подростки» идёт сразу за списком запросов взрослых — отодвигаем */
+.tags + .subtitle{ margin-top:80px; }
 
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
