@@ -178,7 +178,6 @@ h1,h2,h3{ font-family:var(--font-head); font-weight:500; line-height:1.15; margi
   padding-bottom:2px; border-bottom:1px solid transparent;
 }
 .nav__link:hover, .nav__link.is-active{ color:var(--ink); border-bottom-color:var(--accent); }
-.nav__link--cta{ color:var(--accent-dk); font-weight:500; }
 .nav__contacts{ display:none; }
 
 .burger{ display:none; width:40px; height:40px; margin-left:auto; padding:9px 8px;
